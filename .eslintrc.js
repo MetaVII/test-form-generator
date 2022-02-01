@@ -23,5 +23,7 @@ module.exports = {
       "error",
       { extensions: [".js", ".jsx", ".ts", ".tsx"] },
     ],
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-no-useless-fragment": "off",
   },
 };

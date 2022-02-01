@@ -1,0 +1,23 @@
+.tabs {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab {
+  padding: 14px 16px;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.tab:hover {
+  background-color: #ddd;
+}
+
+.tab.active {
+  background-color: #ccc;
+}
