@@ -11,6 +11,7 @@ function Tabs({ tabsConfig, clickHandler, activeTab }: TProps) {
     <div className={styles.tabs}>
       {tabsConfig.map((tabName) => (
         <button
+          key={tabName}
           type="button"
           className={`${styles.tab} ${
             activeTab === tabName ? styles.active : ""
